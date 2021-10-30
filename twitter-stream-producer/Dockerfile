@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jre-11.0.10_9-alpine
+FROM adoptopenjdk/openjdk15:jre-15.0.2_7-alpine
 ARG JAR_FILE=build/libs/*.jar
 
 COPY ${JAR_FILE} twitter-stream-producer.jar
